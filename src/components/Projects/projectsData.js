@@ -68,20 +68,12 @@ const Projects = [
 
     },
     {
-        title: "Débugguez un site React",
+        title: "Debug un site React",
         description: "Debug front via DevTools",
         image: "/assets/724events.webp",
         alt: "Événement",
         tools: ["React", "DevTools"],
         github: "https://github.com/riadslatni/724events.git"
-    },
-    {
-        title: "Application bancaire",
-        description: "Front + Back API",
-        image: "/assets/argentbank.webp",
-        alt: "Logo ArgentBank",
-        tools: ["React", "Redux"],
-        github: "https://github.com/riadslatni/ARGENTBANK.git"
     },
     {
         title: "Implémentez le front-end d'une application bancaire avec React",

@@ -124,6 +124,8 @@
 .card_icon {
   width: 28px;
   height: 28px;
+  background-color: white;
+  border-radius: 20px;
 }
 
 
