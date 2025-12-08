@@ -43,7 +43,7 @@ header {
 }
 
 .navItem a:hover {
-  surline: underline;
+
   font-weight: bold;
 
 }
@@ -56,13 +56,13 @@ a {
 
 a:hover {
   text-decoration: underline;
-  
+
 
 }
 
 @media (max-width: 768px) {
 
- 
+
 
   .header_titles {
     display: none;
