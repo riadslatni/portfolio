@@ -1,0 +1,28 @@
+.footer_container {
+    width: 100%;
+    display: flex;
+    background: linear-gradient(90deg, #275a8a, #1c3a63, #0f1c2e);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+
+}
+
+.footer_title {
+    align-items: center;
+
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+}
+
+@media (max-width: 768px) {
+    .footer_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

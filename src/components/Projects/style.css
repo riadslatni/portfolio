@@ -1,0 +1,22 @@
+.projects_title{
+  text-align: center;
+  font-size: 28px;
+}
+
+.projects_grid {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 32px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+ 
+}
+@media (max-width: 768px){
+  .projects_grid{
+    display: flex;
+    flex-direction: column;
+  }
+}
