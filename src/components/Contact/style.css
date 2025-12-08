@@ -1,0 +1,32 @@
+.contact_container {
+  max-width: 600px;
+  margin: 32px auto;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact_container input,
+.contact_container textarea {
+  width: 98%;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-family: inter sans serif;
+}
+
+.contact_container button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.visually_hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
