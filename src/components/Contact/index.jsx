@@ -35,19 +35,51 @@ function Contact() {
     });
   };
 
-  return (
-    <section id="Contact">
-      <div className="contact_container">
-        <h2>Vous pouvez me contacter via ce formulaire</h2>
-        <form onSubmit={handleSubmit}>
-          <input name="name" placeholder="Nom" onChange={handleChange} value={formData.name} required />
-          <input name="email" placeholder="Email" onChange={handleChange} value={formData.email} required />
-          <textarea name="message" placeholder="Message" onChange={handleChange} value={formData.message} required />
-          <button type="submit">Envoyer</button>
-        </form>
-      </div>
-    </section>
-  );
+ return (
+  <section id="Contact">
+    <div className="contact_container">
+      <h2>Vous pouvez me contacter via ce formulaire</h2>
+
+      <form onSubmit={handleSubmit}>
+
+        <label htmlFor="name">Nom</label>
+        <input
+          id="name"
+          name="name"
+          placeholder="Nom"
+          onChange={handleChange}
+          value={formData.name}
+          required
+        />
+
+        <label htmlFor="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Email"
+          onChange={handleChange}
+          value={formData.email}
+          required
+        />
+
+        <label htmlFor="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          onChange={handleChange}
+          value={formData.message}
+          required
+        />
+
+        <button type="submit">Envoyer</button>
+
+      </form>
+    </div>
+  </section>
+);
+
 }
 
 export default Contact;
